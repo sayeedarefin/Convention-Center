@@ -1,0 +1,116 @@
+nav{
+    margin-bottom: 50px;
+}
+nav a{
+    padding: 80px;
+}
+.middle-card{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 245px;
+    height: 407px;
+    text-align: center;
+}
+.lists{
+    padding-left: 30px;
+}
+.card-info{
+    margin-left: 50px;
+}
+.card img{
+    height: 20px;
+    width: 20px;
+}
+.card-3 img{
+    height: 20px;
+    width: 20px;
+}
+.lists{
+    display: flex;
+}
+.lists p{
+    padding-left: 5px;
+}
+.choose-plan{
+    background-color: #F496D1;
+    height: 50px;
+    border-radius: 20px;
+}
+.choose-plan a{
+    text-decoration: none;
+    color: #3F87F5;
+    font-weight: bold;
+
+}
+.card-3{
+    margin-top: -25px;
+    width: 293px;
+    height: 480px;
+    /* background-color: #3F87F5; */
+    border-radius: 30px;
+}
+/* .card-3 h1,h2,p{
+    color: white;
+}
+.card h1,h2,p{
+    color: #848199;
+} */
+.offer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.button3{
+    width: 232px;
+}
+.clients{
+    width: 100%;
+}
+.client{
+    width: 360px;
+    height: 325px;
+}
+.accordion{
+    margin-left: 68px;
+    margin-right: 100px;
+}
+footer{
+    height: 300px;
+    margin-top: 100px;
+}
+.get-the-app img{
+    height: 80px;
+    width: 135px;
+}
+@media screen and (max-width: 576px){
+    body{
+        width: 100%;
+    }
+    .middle-card{
+        flex-direction: column-reverse;
+    }
+    .card-info{
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .offer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .accordion-img img{
+        width: 415px;
+        margin-bottom: 50px;
+        margin-left: 2px;
+    }
+}
